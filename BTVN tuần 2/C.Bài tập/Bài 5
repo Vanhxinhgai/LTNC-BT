@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    int n; 
+    cin >> n;
+    int initsum = 0;
+    for (int i=1; i<=n; i++){
+        initsum +=i;
+    }
+    for (int i=1; i<=n; i++){
+        int sum = initsum;
+        for (int j=i; j<=n; j++){
+            cout << j << " ";
+            sum = sum - j;
+        }
+        for (int y=1; y<=sum; y++){
+            cout << y << " ";
+            sum = sum - y;
+        }
+        cout << endl;
+    }
+}
