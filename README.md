@@ -1,2 +1,4 @@
-# gameProject 
- project and online tutorial
+# LTNC
+ Họ và tên: Nguyễn Thị Vân Anh
+ MSV: 23021468
+ 
